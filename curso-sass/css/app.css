@@ -1,0 +1,28 @@
+body {
+  background: blue;
+  color: pink;
+  display: flex;
+}
+
+div::before {
+  content: "My Before Pseudo elementbefore";
+}
+div h1 {
+  padding-top: 2rem;
+  padding-right: 0;
+  padding-bottom: 2rem;
+  padding-left: 0;
+  color: chartreuse;
+  margin: 5rem;
+  border: 1px solid blue;
+}
+div h1 small {
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  color: aquamarine;
+  font-size: 1.25rem;
+}
+
+/*# sourceMappingURL=app.css.map */
